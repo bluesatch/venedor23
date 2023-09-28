@@ -1,0 +1,80 @@
+:root {
+    --prim: #00c6c6;
+    --sec: #434b4d;
+    --tert: #d6d6d6;
+
+    --logo: 'Zilla Slab', serif;
+    --mainFont: 'Noto Sans', sans-serif;
+    --headerFont: 'Roboto Condensed', sans-serif;
+}
+
+* { box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--mainFont);
+}
+
+#topHeader {
+    background-color: var(--tert);
+}
+
+.th-text, .tl-link, #themeBtn {
+    color: #898989;
+    font-size: calc(8px + (10 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.th-text {
+    margin-top: 10px;
+}
+
+.highlight {
+    color: var(--prim);
+}
+
+#bottomHeader {
+    padding: 30px 0;
+}
+
+.logo {
+    font-family: var(--logo);
+}
+
+.logo-span {
+    padding: 5px;
+
+    background-color: var(--prim);
+    border-radius: 50%;
+}
+
+.header-btn {
+    margin-left: 6px;
+    padding: 3px 8px;
+    color: #898989;
+    border: none;
+}
+
+#cart {
+    background-color: var(--prim);
+}
+
+.shopping-link {
+    transition: color 0.5s ease;
+}
+
+.shopping-link:hover {
+    color: var(--prim);
+}
+
+.header-search {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.search-btn {
+    margin-left: -10px;
+    background-color: var(--tert);
+    border: none;
+    border-radius: 3px;
+}
