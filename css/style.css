@@ -83,6 +83,62 @@ body {
     border-radius: 3px;
 }
 
-#promoSection {
+#promoSection, #latestSection {
     padding: 20px 0;
+}
+
+.latest-box {
+    position: relative;
+    border-top: 1px solid var(--tert);
+    padding: 18px 0;
+    width: 100%;
+    height: 600px;
+}
+
+#latestHeading {
+    position: absolute;
+    top: -20px;
+    margin: 0;
+    padding:  0 5px;
+    font-family: var(--headerFont);
+    background-color: white;
+    /* change background-color in js */
+    border-left: 4px solid var(--prim);
+}   
+
+.latest-tag {
+    font-size: 14px;
+}
+
+#latestScrolls {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    padding-left: 5px;
+    background-color: white;
+    /* change background-color in js */
+}
+
+.scroll-btn {
+    color: var(--tert);
+    border: 1px solid var(--tert);
+    border-radius: 5px;
+}
+
+.scroll-btn:hover {
+    color: white;
+    background-color: var(--prim);
+}
+
+.products {
+    padding: 20px;
+    /* border: 1px solid blue; */
+}
+
+
+
+@media (max-width: 767px) {
+    .products-col {
+        margin: 20px auto;
+    }
 }
