@@ -29,6 +29,10 @@ body {
     margin-top: 10px;
 }
 
+.th-text a {
+    text-decoration: none;
+}
+
 .highlight {
     color: var(--prim);
 }
@@ -77,4 +81,8 @@ body {
     background-color: var(--tert);
     border: none;
     border-radius: 3px;
+}
+
+#promoSection {
+    padding: 20px 0;
 }
