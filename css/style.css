@@ -63,11 +63,11 @@ body {
     background-color: var(--prim);
 }
 
-.shopping-link {
+.shopping-link, .account-link {
     transition: color 0.5s ease;
 }
 
-.shopping-link:hover {
+.shopping-link:hover, .account-link:hover{
     color: var(--prim);
 }
 
@@ -83,8 +83,12 @@ body {
     border-radius: 3px;
 }
 
-#promoSection, #latestSection, #welcomeSection, #bestSellersSection, #manufacturersSection {
+#promoSection, #latestSection, #welcomeSection, #bestSellersSection {
     padding: 20px 0;
+}
+
+#manufacturersSection {
+    padding: 20px 0 40px 0;
 }
 
 .latest-box, .sellers-box, .manufacturers-box {
@@ -173,4 +177,43 @@ body {
     /* border: 1px solid blue; */
 }
 
+#topFooter {
+    padding: 10px 0;
+    background-color: var(--tert);
+}
 
+.signup-text {
+    margin: 0;
+    color: var(--sec);
+    font-family: var(--headerFont);
+    font-size: 22px;
+}
+
+.signup {
+    color: var(--sec);
+    background-color: var(--tert);
+    border: 1px solid yellow;
+}
+
+#bottomFooter {
+    padding: 80px 0;
+    background-color: var(--sec);
+}
+
+.footer-header {
+    font-family: var(--headerFont);
+    font-size: 18px;
+}
+
+.account-list {
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.account-item {
+    font-size: 14px;
+}
+
+.account-item::marker {
+    color: var(--prim);
+}
